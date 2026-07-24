@@ -162,6 +162,120 @@ align-items:center;
 
 
 .card{
+/* HERO SECTION */
+
+.hero{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+padding:70px 8%;
+background:white;
+
+}
+
+
+.hero-text{
+
+flex:1;
+
+}
+
+
+.hero-text h1{
+
+font-family:'Playfair Display', serif;
+font-size:45px;
+color:#0b6b53;
+margin-bottom:15px;
+
+}
+
+
+.hero-text h2{
+
+font-size:32px;
+color:#c49a3a;
+margin-bottom:20px;
+
+}
+
+
+.hero-text p{
+
+font-size:20px;
+line-height:1.7;
+
+}
+
+
+.hero-image{
+
+flex:1;
+
+}
+
+
+.hero-image img{
+
+width:100%;
+max-width:450px;
+border-radius:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.12);
+
+}
+
+
+/* BUTTON STYLE */
+
+.button{
+
+display:inline-block;
+background:#0b6b53;
+color:white;
+padding:14px 28px;
+border-radius:30px;
+text-decoration:none;
+margin:15px 8px 0 0;
+font-weight:bold;
+
+}
+
+
+.button:hover{
+
+background:#c49a3a;
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+
+.hero-text h1{
+
+font-size:35px;
+
+}
+
+
+.hero-image img{
+
+max-width:320px;
+
+}
+
+}
 
 width:90%;
 
