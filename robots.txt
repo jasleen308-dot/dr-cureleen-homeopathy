@@ -1,1 +1,5 @@
+User-agent: *
 
+Allow: /
+
+Sitemap: https://jasleen308-dot.github.io/dr-cureleen-homeopathy/sitemap.xml
