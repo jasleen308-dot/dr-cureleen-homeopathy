@@ -1038,3 +1038,27 @@ grid-template-columns:1fr;
 }
 
 }
+.condition-list{
+
+max-width:900px;
+margin:30px auto;
+padding-left:25px;
+
+}
+
+
+.condition-list li{
+
+margin-bottom:15px;
+line-height:1.6;
+font-size:16px;
+
+}
+
+
+.condition-list strong{
+
+color:#0b6b53;
+
+}
+
