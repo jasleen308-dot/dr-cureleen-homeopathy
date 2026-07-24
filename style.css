@@ -556,3 +556,23 @@ text-decoration:none;
 margin:0 10px;
 font-weight:500;
 }
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+width:280px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+.card h3{
+color:#145A4A;
+}
