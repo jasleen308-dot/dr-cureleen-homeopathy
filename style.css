@@ -83,7 +83,7 @@ a:hover {
 .cards{
 
 display:flex;
-flex-wrap:wrap;
+flex-wrap:nowrap;
 justify-content:center;
 gap:15px;
 max-width:1200px;
