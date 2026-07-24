@@ -96,8 +96,8 @@ margin:30px auto;
 .card{
 
 background:white;
-width:280px;
-padding:20px;
+width:240px;
+padding:15px;
 border-radius:15px;
 box-shadow:0 5px 20px rgba(0,0,0,0.08);
 transition:0.3s;
