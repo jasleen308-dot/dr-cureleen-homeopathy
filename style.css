@@ -939,3 +939,18 @@ grid-template-columns:1fr;
 }
 
 }
+.condition-cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+max-width:1100px;
+margin:30px auto;
+}
+
+
+.condition-cards .card{
+width:300px;
+box-sizing:border-box;
+padding:20px;
+}
