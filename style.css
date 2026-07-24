@@ -989,3 +989,52 @@ min-height:180px;
 box-sizing:border-box;
 padding:20px;
 }
+.condition-cards{
+
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+gap:12px;
+max-width:900px;
+margin:25px auto;
+
+}
+
+
+.condition-cards .card{
+
+background:#f7faf8;
+border-left:5px solid #0b6b53;
+padding:12px 18px;
+border-radius:8px;
+box-shadow:none;
+width:auto;
+
+}
+
+
+.condition-cards .card h3{
+
+font-size:18px;
+margin-bottom:5px;
+
+}
+
+
+.condition-cards .card p{
+
+font-size:14px;
+line-height:1.4;
+margin:0;
+
+}
+
+
+@media(max-width:768px){
+
+.condition-cards{
+
+grid-template-columns:1fr;
+
+}
+
+}
