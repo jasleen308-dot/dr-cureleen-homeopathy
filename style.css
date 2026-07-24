@@ -83,9 +83,9 @@ a:hover {
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:25px;
+gap:15px;
 max-width:1100px;
-margin:40px auto;
+margin:20px auto;
 
 }
 
