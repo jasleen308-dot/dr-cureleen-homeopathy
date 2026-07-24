@@ -970,3 +970,22 @@ box-sizing:border-box;
 padding:20px;
 margin:0;
 }
+.condition-cards{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+max-width:1200px;
+margin:30px auto;
+
+}
+
+
+.condition-cards .card{
+
+width:260px;
+min-height:180px;
+box-sizing:border-box;
+padding:20px;
+}
