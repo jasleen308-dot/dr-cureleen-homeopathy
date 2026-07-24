@@ -588,3 +588,12 @@ margin-top:50px;
 footer h3{
 color:#D6B25E;
 }
+section{
+padding:50px 8%;
+}
+
+
+p{
+max-width:900px;
+margin:20px auto;
+}
