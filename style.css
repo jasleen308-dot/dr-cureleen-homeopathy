@@ -381,3 +381,63 @@ font-size:14px;
 }
 
 }
+/* GENERAL SECTION DESIGN */
+
+section{
+
+padding:70px 8%;
+}
+
+
+section h2{
+
+font-family:'Playfair Display', serif;
+font-size:40px;
+color:#0b6b53;
+margin-bottom:20px;
+
+}
+
+
+section > p{
+
+max-width:900px;
+margin:0 auto 30px;
+}
+
+
+/* IMPROVE LIST STYLE */
+
+ul{
+
+max-width:900px;
+margin:30px auto;
+padding:0;
+
+}
+
+
+li{
+
+list-style:none;
+background:white;
+padding:18px;
+margin:12px 0;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+/* HORIZONTAL LINE */
+
+hr{
+
+border:none;
+height:2px;
+background:#d8e8df;
+width:80%;
+margin:50px auto;
+
+}
