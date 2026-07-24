@@ -22,3 +22,9 @@ p {
     font-size: 20px;
     line-height: 1.6;
 }
+img {
+    border-radius: 15px;
+    margin: 20px 0;
+    max-width: 90%;
+    height: auto;
+}
