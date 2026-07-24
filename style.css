@@ -774,3 +774,10 @@ border-radius:50%;
 border:8px solid #0b6b53;
 box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
+.logo{
+
+width:90px;
+height:90px;
+object-fit:contain;
+
+}
