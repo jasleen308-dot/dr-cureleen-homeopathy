@@ -798,3 +798,19 @@ overflow-x:hidden;
 }
 
 }
+@media(max-width:768px){
+
+header{
+padding-bottom:20px;
+}
+
+nav{
+position:relative;
+z-index:1;
+}
+
+.hero{
+margin-top:20px;
+}
+
+}
