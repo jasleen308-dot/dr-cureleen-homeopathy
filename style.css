@@ -613,3 +613,21 @@ scroll-behavior:smooth;
 .hero-image img{
 box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
+.hero-text, .hero-image{
+animation:fadeIn 1.2s ease;
+}
+
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
