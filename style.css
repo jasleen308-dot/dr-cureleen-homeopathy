@@ -893,3 +893,14 @@ object-fit:cover;
 border-radius:15px;
 
 }
+.gallery-cards{
+display:grid;
+grid-template-columns:repeat(4, 250px);
+justify-content:center;
+gap:20px;
+}
+
+.gallery-cards .card{
+width:250px;
+margin:0;
+}
