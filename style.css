@@ -491,3 +491,30 @@ justify-content:center;
 font-size:28px;
 text-decoration:none;
 }
+.hero {
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+padding:60px 8%;
+background:#f4f7f6;
+}
+
+
+.hero-text {
+max-width:600px;
+}
+
+
+.hero-image img {
+width:350px;
+border-radius:20px;
+}
+
+
+.button {
+background:#145A4A;
+color:white;
+padding:12px 25px;
+border-radius:25px;
+}
