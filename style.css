@@ -42,7 +42,9 @@ ul {
 }
 
 li {
-  background:linear-gradient(135deg,#f8fff8,#eef8f3);
+body{
+background:#faf7f0;
+}
     margin: 10px 0;
     padding: 15px;
     border-radius: 10px;
