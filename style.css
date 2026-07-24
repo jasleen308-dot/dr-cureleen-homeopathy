@@ -576,3 +576,15 @@ box-shadow:0 5px 20px rgba(0,0,0,0.08);
 .card h3{
 color:#145A4A;
 }
+footer{
+background:#145A4A;
+color:white;
+text-align:center;
+padding:40px 20px;
+margin-top:50px;
+}
+
+
+footer h3{
+color:#D6B25E;
+}
