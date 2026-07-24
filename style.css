@@ -58,3 +58,17 @@ hr {
     margin: 40px auto;
     width: 80%;
 }
+a {
+    display: inline-block;
+    background: #0b6b53;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #095843;
+}
