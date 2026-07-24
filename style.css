@@ -865,3 +865,31 @@ height:180px;
 object-fit:cover;
 border-radius:15px;
 }
+.gallery-cards{
+
+display:flex;
+flex-wrap:nowrap;
+justify-content:center;
+gap:20px;
+max-width:1200px;
+margin:30px auto;
+
+}
+
+
+.gallery-cards .card{
+
+width:250px;
+flex:0 0 250px;
+
+}
+
+
+.gallery-cards .service-image{
+
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:15px;
+
+}
