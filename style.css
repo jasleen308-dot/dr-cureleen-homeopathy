@@ -224,8 +224,8 @@ flex:1;
 .hero-image img{
 
 width:100%;
-max-width:380px;
-max-height:350px;
+max-width:300px;
+max-height:300px;
 object-fit:cover;
 border-radius:25px;
 box-shadow:0 10px 30px rgba(0,0,0,0.12);
