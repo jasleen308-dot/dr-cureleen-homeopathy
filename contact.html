@@ -186,7 +186,28 @@ A Home to Cure
 
 function sendWhatsApp(){
 
-alert("Thank you! We will contact you shortly.");
+let name = document.querySelector('input[type="text"]').value;
+
+let phone = document.querySelector('input[type="tel"]').value;
+
+let email = document.querySelector('input[type="email"]').value;
+
+let concern = document.querySelector('textarea').value;
+
+
+let message =
+"New Appointment Request%0A%0A" +
+"Name: " + name +
+"%0APhone: " + phone +
+"%0AEmail: " + email +
+"%0AHealth Concern: " + concern;
+
+
+window.open(
+"https://wa.me/919310712052?text=" + message,
+"_blank"
+);
+
 
 }
 
