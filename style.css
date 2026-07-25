@@ -349,13 +349,23 @@ align-items:center;
 
 nav a{
 
-background:none;
-color:#0b6b53;
-padding:10px 15px;
-margin:0 5px;
+display:inline-block;
+padding:12px 20px;
+margin:4px 6px;
 text-decoration:none;
-font-weight:500;
-border-radius:20px;
+
+background:#eef7f4;
+color:#0b6b53;
+
+border:2px solid #d7ebe3;
+border-radius:12px;
+
+font-family:'Poppins', sans-serif;
+font-size:16px;
+font-weight:600;
+
+transition:0.3s ease;
+box-shadow:0 4px 10px rgba(11,107,83,0.08);
 
 }
 
